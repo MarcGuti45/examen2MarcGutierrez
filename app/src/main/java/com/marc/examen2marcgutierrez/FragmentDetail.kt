@@ -25,16 +25,16 @@ class FragmentDetail : Fragment() {
         )
 
         binding.buttonDelete.setOnClickListener {
-            val nom = binding.editTextNom.text.toString()
-            val preu = binding.editTextPreu.text.toString().toInt()
+            val nom = binding.editTextNomDetail.text.toString()
+            val preu = binding.editTextPreuDetail.text.toString().toInt()
 
             mobleViewModel.newMoble(requireContext(), nom, preu)
 
         }
 
         binding.buttonUpdate.setOnClickListener {
-            val nom = binding.editTextNom.text.toString()
-            val preu = binding.editTextPreu.text.toString().toInt()
+            val nom = binding.editTextNomDetail.text.toString()
+            val preu = binding.editTextPreuDetail.text.toString().toInt()
 
             mobleViewModel.newMoble(requireContext(), nom, preu)
 
