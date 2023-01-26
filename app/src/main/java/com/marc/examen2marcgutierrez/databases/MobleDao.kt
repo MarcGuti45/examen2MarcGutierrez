@@ -17,10 +17,10 @@ interface MobleDao {
     fun getMobles(): LiveData<List<Moble>>
 
 /*
-    @Query("DELETE * FROM Moble")
+    @Query("DELETE FROM Moble WHERE")
     fun deleteMoble(marca:String): LiveData<List<Moble>>
 
-    @Query("UPDATE moble")
+    @Query("UPDATE Moble SET WHERE")
     fun updateMoble(): LiveData<List<Moble>>
 
  */
