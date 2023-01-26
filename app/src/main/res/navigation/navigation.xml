@@ -2,4 +2,19 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/navigation"/>
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragmentIni">
+    <fragment
+        android:id="@+id/fragmentIni"
+        android:name="com.marc.examen2marcgutierrez.FragmentIni"
+        android:label="fragment_ini"
+        tools:layout="@layout/fragment_ini" >
+        <action
+            android:id="@+id/action_fragmentIni_to_fragmentInsert"
+            app:destination="@id/fragmentInsert" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentInsert"
+        android:name="com.marc.examen2marcgutierrez.FragmentInsert"
+        android:label="FragmentInsert" />
+</navigation>
