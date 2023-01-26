@@ -17,7 +17,7 @@ interface MobleDao {
     fun getMobles(): LiveData<List<Moble>>
 
 /*
-    @Query("DELETE FROM Moble WHERE")
+    @Query("DELETE FROM Moble WHERE name =: editTextNomDetail")
     fun deleteMoble(marca:String): LiveData<List<Moble>>
 
     @Query("UPDATE Moble SET WHERE")
