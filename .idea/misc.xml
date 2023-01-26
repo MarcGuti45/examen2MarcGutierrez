@@ -4,9 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Marc/OneDrive/Escritorio/TODO/2n DAM/examen2MarcGutierrez/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
-        <entry key="..\:/Users/Marc/OneDrive/Escritorio/TODO/2n DAM/examen2MarcGutierrez/app/src/main/res/layout/fragment_ini.xml" value="0.264" />
-        <entry key="..\:/Users/Marc/OneDrive/Escritorio/TODO/2n DAM/examen2MarcGutierrez/app/src/main/res/layout/fragment_insert.xml" value="0.2359375" />
+        <entry key="..\:/Users/Marc/OneDrive/Escritorio/TODO/2n DAM/examen2MarcGutierrez/app/src/main/res/layout/fragment_detail.xml" value="0.25" />
+        <entry key="..\:/Users/Marc/OneDrive/Escritorio/TODO/2n DAM/examen2MarcGutierrez/app/src/main/res/layout/fragment_ini.xml" value="0.2" />
+        <entry key="..\:/Users/Marc/OneDrive/Escritorio/TODO/2n DAM/examen2MarcGutierrez/app/src/main/res/layout/fragment_insert.xml" value="0.1" />
         <entry key="..\:/Users/Marc/OneDrive/Escritorio/TODO/2n DAM/examen2MarcGutierrez/app/src/main/res/layout/fragment_test.xml" value="0.25" />
+        <entry key="..\:/Users/Marc/OneDrive/Escritorio/TODO/2n DAM/examen2MarcGutierrez/app/src/main/res/layout/item_moble.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Marc/OneDrive/Escritorio/TODO/2n DAM/examen2MarcGutierrez/app/src/main/res/menu/options_menu.xml" value="0.24895833333333334" />
       </map>
     </option>
   </component>

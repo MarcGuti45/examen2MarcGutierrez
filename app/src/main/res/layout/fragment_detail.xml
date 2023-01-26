@@ -10,17 +10,30 @@
 
 
         <Button
-            android:id="@+id/buttonInsert"
+            android:id="@+id/buttonUpdate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ins"
+            android:text="Upd"
             android:textSize="26sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.899"
+            app:layout_constraintHorizontal_bias="0.685"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.923" />
+            app:layout_constraintVertical_bias="0.806" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Del"
+            android:textSize="26sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.309"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.806" />
 
         <EditText
             android:id="@+id/editTextNom"
@@ -33,7 +46,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+            app:layout_constraintTop_toBottomOf="@+id/textViewTitleEdit" />
 
         <EditText
             android:id="@+id/editTextPreu"
@@ -42,7 +55,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:hint="Preu"
-            app:layout_constraintBottom_toTopOf="@+id/buttonInsert"
+            app:layout_constraintBottom_toTopOf="@+id/buttonUpdate"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
@@ -50,11 +63,11 @@
             app:layout_constraintVertical_bias="0.068" />
 
         <TextView
-            android:id="@+id/textViewTitle"
+            android:id="@+id/textViewTitleEdit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="76dp"
-            android:text="INTRODUEIX UN MOBLE"
+            android:text="EDITA EL MOBLE"
             android:textSize="26sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
